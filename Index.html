@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Chess Notation Generator</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="Notation Explanation.js"></script>
+	<link rel="icon" type="images/x-icon" href="images/knightlogo.png">
+</head>
+<body>
+    <div class="Banner">
+        <div class="BannerContent">
+			<img src="images/knightlogo.png" alt="Chess Knight Logo" style="width:180px;height:180px">
+		<div class="BannerContent2">
+			<img src="images/knightflip2.png" alt="Chess Knight Logo Flipped" style="width:180px;height:180px">
+			</div>
+            <div class="titles">
+                <center>Learn Chess Notation</center>
+            </div>
+            <div class="contacts">
+                <ul>
+                    <li><a href="Chess Notation Generator.html">Home</a></li>
+                    <li><a href="#legal">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="body2">
+        <h1>Chess Pieces</h1>
+        <div class="Buttons">
+            <button onclick="Pawn()" id="Pawn" style="background-color: white;">Pawn</button><br>
+            <button onclick="Knight()" id="Knight" style="background-color: white;">Knight</button><br>
+            <button onclick="Bishop()" id="Bishop" style="background-color: white;">Bishop</button><br>
+            <button onclick="Rook()" id="Rook" style="background-color: white;">Rook</button><br>
+            <button onclick="Queen()" id="Queen" style="background-color: white;">Queen</button><br>
+            <button onclick="King()" id="King" style="background-color: white;">King</button><br>
+        </div>
+        <h1> Chess Moves</h1>
+      <div class="Buttons2">
+            <button onclick="Check()" id="Check" style="background-color: white;">Check</button><br>
+            <button onclick="Checkmate()" id="Checkmate" style="background-color: white;">Checkmate</button><br>
+            <button onclick="QueenCastle()" id="QueenCastle" style="background-color: white;">Queen-side Castle</button><br>
+            <button onclick="Capture()" id="Capture" style="background-color: white;">Capture</button><br>
+            <button onclick="Promotion()" id="Promotion" style="background-color: white;">Promotion</button><br>
+            <button onclick="KingCastle()" id="KingCastle" style="background-color: white;">King-side Castle</button><br>
+      </div>
+    </div>
+    <div class="ChessP">
+        <p id="chessParagraph">Text Will Appear Here Upon Selection Of Piece/Action.</p>
+    </div>
+    <div id="Exampleimages"></div>
+
+
+<div id="legal">
+	<div class="content">
+	<p> All rights reserved <br>
+		Copyright: © Chess Notation by Ivan Bondarenko <br>
+		Contact me: <br><a href="mailto:ivanb14@learn.cssd.ab.ca">School Email</a></p>
+		
+	</div>
+</div>
+</body>
+</html>
