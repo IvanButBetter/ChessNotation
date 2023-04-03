@@ -95,7 +95,7 @@ function QueenCastle() {
 	img.innerHTML = "<img src='images/QueenCastle.png' />";
 }
 
-
+alert("You are viewing the online version of the web page. The images might not load (uknown reason currently). This web page is owned by Ivan Bondarenko")
 Pawn()
 Knight()
 Queen()
