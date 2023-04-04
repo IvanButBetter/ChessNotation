@@ -14,7 +14,7 @@ body {
 	width: 100%;
 	border: none;
 	border-bottom: 5px solid black;
-	height: 250px;
+	height: 200px;
 	}
 .BannerContent {
 	width: 100%;
@@ -163,4 +163,7 @@ html {
 }
 #imageBox p{
 	font-family: Arial, Helvatica, Calibri;
+}
+a {
+	color: #3552FB;
 }
